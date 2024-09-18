@@ -1,0 +1,15 @@
+.dialog-section
+{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialog-section > *
+{
+    padding: 10px;
+}
+
+.errorMessage 
+{
+    color: rgb(209, 95, 42)
+}

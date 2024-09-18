@@ -1,0 +1,16 @@
+
+.avatar 
+{
+  width: 350px;
+}
+
+.errorMessage 
+{
+  color: rgb(209, 95, 42);
+  font-weight: 700;
+}
+
+.errorField
+{
+  border: 4px solid rgb(209, 95, 42);
+}

@@ -1,0 +1,14 @@
+.singleMessage
+{
+    padding: 10px;
+    border: 8px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(2, 50, 2);
+}
+
+.sendWindow
+{
+   
+    padding: 20px
+}

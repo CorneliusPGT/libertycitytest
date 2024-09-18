@@ -1,0 +1,26 @@
+.pagination
+{
+    display: flex;
+  
+}
+
+.selectedPage
+{
+    transform: scale(1.2);
+}
+
+li 
+{
+    margin-right: 5px;
+}
+
+.userAva
+{
+    width: 200px;
+}
+
+.topUsers
+{
+    display: flex;
+    align-items: center;
+}

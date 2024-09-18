@@ -1,0 +1,17 @@
+header 
+{
+  grid-area: h;
+  background-color: rgb(11, 39, 13);
+}
+
+.Applogo
+{
+  height: 100px;
+}
+
+.headerMain 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
