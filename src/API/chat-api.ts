@@ -75,7 +75,7 @@ export const chatAPI = {
     return () => {
       //@ts-ignore
       subcribers[eventName] = subcribers[eventName].filter(
-        (s) => s !== callback
+        (s: any) => s !== callback
       );
     };
   },

@@ -28,8 +28,8 @@ const Chat: React.FC = React.memo(() => {
 
     const dispatch = useAppDispatch()
     useEffect(() => {
-        debugger
-        dispatch(getReceivedMessages())
+        if (status === 'pending')
+            dispatch(getReceivedMessages())
         return () => {
             dispatch(stopReceivedMessages())
         }
