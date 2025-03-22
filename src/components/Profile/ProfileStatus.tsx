@@ -2,6 +2,7 @@ import { ChangeEventHandler, useEffect, useState } from "react";
 import "./Status.css";
 import { useDispatch } from "react-redux";
 import { updateStatusThunk } from "../../redux/profileReducer";
+import React from "react";
 
 type Props = 
 {

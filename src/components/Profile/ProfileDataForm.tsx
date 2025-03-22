@@ -3,6 +3,7 @@ import { Contacts as ContactType, Photos, Profile } from "../../Types/types";
 import { ProfileStatus } from "./ProfileStatus";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { useAppSelector } from "../../redux/reduxHooks";
+import React from "react";
 
 type Props =
   {
