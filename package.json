@@ -46,17 +46,18 @@
     "eject": "react-scripts eject",
     "update-browserslist": "npx update-browserslist-db@latest"
   },
-  "eslintConfig": {
-    "extends": ["react-app", "eslint:recommended"],
-    "rules": {
-      "react-hooks/exhaustive-deps": "off",
-      "no-extra-semi": "off",
-      "no-debugger": "off",
-      "no-extra-boolean-cast": "off",
-      "no-console": "off",
-      "max-len": ["warn", { "code": 120 }]
-    }
-  },
+ "eslintConfig": {
+  "extends": ["react-app", "eslint:recommended"],
+  "rules": {
+    "react-hooks/exhaustive-deps": "off",
+    "no-extra-semi": "off",
+    "no-debugger": "off",
+    "no-extra-boolean-cast": "off",
+    "no-console": "off",
+    "max-len": ["warn", { "code": 120 }],
+    "no-unused-vars": "off"
+  }
+},
   "browserslist": {
     "production": [
       ">0.2%",
